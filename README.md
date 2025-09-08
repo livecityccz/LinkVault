@@ -16,7 +16,7 @@ docker run -d --name pansou -p 80:80 ghcr.io/livecityccz/pansou-web
 ##### 使用Docker Compose（推荐）
 ```
 # 下载配置文件
-curl -o docker-compose.yml https://raw.githubusercontent.com/livecityccz/pansou-web/refs/heads/main/docker-compose.yml
+curl -o docker-compose.yml https://raw.githubusercontent.com/livecityccz/LinkVault/refs/heads/main/docker-compose.yml
 
 # 启动服务
 docker-compose up -d
@@ -37,7 +37,7 @@ docker run -d --name pansou -p 8888:8888 -v pansou-cache:/app/cache -e CHANNELS=
 
 ```bash
 # 下载配置文件
-curl -o docker-compose.yml  https://raw.githubusercontent.com/livecityccz/pansou/refs/heads/main/docker-compose.yml
+curl -o docker-compose.yml  https://raw.githubusercontent.com/livecityccz/LinkVault/refs/heads/main/docker-compose.yml
 
 # 启动服务
 docker-compose up -d
